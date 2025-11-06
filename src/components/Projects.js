@@ -3,6 +3,13 @@ import React from "react";
 const Projects = () => (
   <div>
     <h2>Projects</h2>
+        <div className="card">
+      <h3>ABSA Business Banking Onboarding System</h3>
+      <p>
+        Contributed backend logic using Java Spring Boot for secure and efficient customer onboarding.
+      </p>
+    </div>
+    
     <div className="card">
       <h3>VocaSelect (Career Guidance App)</h3>
       <p>
@@ -11,12 +18,7 @@ const Projects = () => (
       </p>
     </div>
 
-    <div className="card">
-      <h3>ABSA Business Banking Onboarding System</h3>
-      <p>
-        Contributed backend logic using Java Spring Boot for secure and efficient customer onboarding.
-      </p>
-    </div>
+
   </div>
 );
 
