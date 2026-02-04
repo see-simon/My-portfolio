@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./Hero.css";
 import profile from "../assets/profile.jpg";
-import pic from "../assets/pic.jpeg";
+import pic from "../assets/profile.jpg";
 
 const Hero = () => {
   const [text, setText] = useState("");
@@ -19,7 +19,7 @@ const Hero = () => {
 
   return (
     <div className="hero">
-      <img src={pic} alt="Profile" className="profile-pic" />
+      <img src={pic} className="profile-pic" />
       <h1>Thobejane Mpelemane Simon</h1>
       <h3>{text}</h3>
       <a href="#contact" className="btn">Contact Me</a>
