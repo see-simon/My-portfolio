@@ -18,7 +18,7 @@ const Hero = () => {
 
   return (
     <div className="hero">
-      <img src={pic} className="profile-pic" />
+      <img src={pic} alt="Profile" className="profile-pic" />
       <h1>Thobejane Mpelemane Simon</h1>
       <h3>{text}</h3>
       <a href="#contact" className="btn">Contact Me</a>
